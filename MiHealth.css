@@ -31,7 +31,8 @@
     margin-top: 17px;
 }
 #mainstuff{
-    width: 100vw;
+    width: 30%;
+    min-width: 358px;
     height: 100vh;
     background-image: url("p6.png");
     padding-top: 1px;
@@ -61,4 +62,27 @@
     margin-right: 50px;
     margin-top: 50px;
     font-size: 35px;
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+.imig{
+    width: 300px;
+    height: auto;
+    display: inline;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+#topbar{
+    min-width: 725px;
+}
+#images{
+    width: 100%;
+    min-width: 358px;
+    height: 100vh;
+    background-image: url("p6.png");
+    padding-top: 1px;
+}
+#contain{
+    display: flex;
 }
