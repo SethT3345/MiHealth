@@ -7,6 +7,7 @@
     margin-top: 50px;
     margin-left: 100px;
     font-size: 50px;
+    margin-right: -5px;
 }
 #hlth{
     font-family: "Bebas Neue", sans-serif;
@@ -33,12 +34,13 @@
 #mainstuff{
     width: 30%;
     min-width: 358px;
-    height: 100vh;
+    height: calc(100vh - 60px);
     background-image: url("p6.png");
     padding-top: 1px;
+    background-size: auto;
 }
 #bh{
-    margin-left: 75px;
+    margin-left: 100px;
     margin-top: 75px;
     margin-right: 50px;
     font-family: "Bebas Neue", sans-serif;
@@ -51,14 +53,13 @@
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin-left: 75px;
-    margin-right: 50px;
+    margin-left: 100px;
 }
 #menuclk{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 200;
     font-style: normal;
-    margin-left: 75px;
+    margin-left: 100px;
     margin-right: 50px;
     margin-top: 50px;
     font-size: 35px;
@@ -79,10 +80,15 @@
 #images{
     width: 100%;
     min-width: 990px;
-    height: 100vh;
     background-image: url("p6.png");
     padding-top: 1px;
+    background-size: auto;
+    height: calc(100vh - 60px);
 }
 #contain{
     display: flex;
+}
+html, body {
+    margin: 0;
+    height: 100%;
 }
